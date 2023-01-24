@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T13:56:18.898Z" agent="5.0 (Windows)" etag="49h_B5UUEzPpdby0Cln4" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T14:28:08.905Z" agent="5.0 (Windows)" etag="OmV8gyyqjY4lvlIG6m7H" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1322" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,6 +245,33 @@
             <mxPoint x="370" y="630" as="sourcePoint" />
             <mxPoint x="539.98" y="630" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-41" value="Used to change skybox in a hacky way?" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-50" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-41" target="VxCFYS7vYOswzJPETZMv-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="544" y="50" as="sourcePoint" />
+            <mxPoint x="550" y="89.27999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-43" value="Is used by several Classes to store global needed Information. This should probably be refactored so that this class will be removed." style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-110" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;entryX=0.3;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-43" target="lfC_8TBVi6S20VTG8EU3-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="50" as="sourcePoint" />
+            <mxPoint x="717" y="87.99000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-45" value="Script Lööschen ist jetzt DynSceneLoader." style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-105" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;entryX=0.47;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-45" target="lfC_8TBVi6S20VTG8EU3-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="906.6071428571427" y="50" as="sourcePoint" />
+            <mxPoint x="900" y="87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
