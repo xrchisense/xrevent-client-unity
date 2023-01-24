@@ -1,16 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T10:58:01.334Z" agent="5.0 (Windows)" etag="tJH6aV2vEnSQtNIT-qEw" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T11:06:26.376Z" agent="5.0 (Windows)" etag="wot2Jc1PJEnDOs-isuD4" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1253" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VxCFYS7vYOswzJPETZMv-11" value="XRJsonUtility" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="140" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="VxCFYS7vYOswzJPETZMv-11">
+          <mxGeometry x="65" y="340" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-14" value="" style="endArrow=block;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="VxCFYS7vYOswzJPETZMv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="350" as="sourcePoint" />
+            <mxPoint x="70" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-15" value="ParseEventFromJson() : &lt;br&gt;XReventContainer" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="VxCFYS7vYOswzJPETZMv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="ClientNetworkUtility" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="80" width="120" height="450" as="geometry" />
+          <mxGeometry x="-40" y="80" width="120" height="560" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="55" y="80" width="10" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="VxCFYS7vYOswzJPETZMv-4" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=0.533;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="VxCFYS7vYOswzJPETZMv-4" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=0.8;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="190" as="sourcePoint" />
             <mxPoint x="70" y="220" as="targetPoint" />
@@ -51,7 +66,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="ClientSessionManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="140" height="300" as="geometry" />
+          <mxGeometry x="690" y="80" width="140" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="65" y="55" width="10" height="190" as="geometry" />
