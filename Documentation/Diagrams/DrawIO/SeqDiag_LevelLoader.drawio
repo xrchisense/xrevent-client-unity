@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T11:50:11.542Z" agent="5.0 (Windows)" etag="WGlMZaUDk4cNFn2b7fQR" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T11:57:39.563Z" agent="5.0 (Windows)" etag="p2n0FBSaYfAm3_VztAxW" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,9 +23,9 @@
           <mxGeometry x="-40" y="80" width="120" height="560" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="55" y="80" width="10" height="320" as="geometry" />
+          <mxGeometry x="55" y="80" width="10" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="VxCFYS7vYOswzJPETZMv-4" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=0.8;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="VxCFYS7vYOswzJPETZMv-4" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=1.7;exitY=0.273;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="3nuBFxr9cyL0pnOWT2aG-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="190" as="sourcePoint" />
             <mxPoint x="70" y="220" as="targetPoint" />
@@ -92,6 +92,13 @@
         <mxCell id="lfC_8TBVi6S20VTG8EU3-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="lfC_8TBVi6S20VTG8EU3-3" vertex="1">
           <mxGeometry x="45" y="380" width="10" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-39" value="SetSkybox" style="endArrow=open;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=0.43;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lfC_8TBVi6S20VTG8EU3-3" target="VxCFYS7vYOswzJPETZMv-29">
+          <mxGeometry x="-0.0909" y="-10" relative="1" as="geometry">
+            <mxPoint x="-120" y="600" as="sourcePoint" />
+            <mxPoint x="45" y="600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lfC_8TBVi6S20VTG8EU3-5" value="SceneBuilder" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="80" width="100" height="300" as="geometry" />
         </mxCell>
@@ -120,7 +127,7 @@
         <mxCell id="lfC_8TBVi6S20VTG8EU3-10" value="BuildScene ()" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="lfC_8TBVi6S20VTG8EU3-9" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfC_8TBVi6S20VTG8EU3-11" value="" style="endArrow=block;html=1;rounded=0;entryX=0.5;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" parent="1" source="lfC_8TBVi6S20VTG8EU3-1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="lfC_8TBVi6S20VTG8EU3-11" value="" style="endArrow=block;html=1;rounded=0;entryX=-0.7;entryY=0.215;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" parent="1" source="lfC_8TBVi6S20VTG8EU3-1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-280" y="260" as="sourcePoint" />
             <mxPoint x="-70" y="400" as="targetPoint" />
@@ -204,7 +211,7 @@
             <mxPoint x="370" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VxCFYS7vYOswzJPETZMv-28" value="Sets remaining objects to load" style="endArrow=none;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startArrow=open;startFill=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="VxCFYS7vYOswzJPETZMv-28" value="Sets remaining objects to load" style="endArrow=none;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1">
           <mxGeometry x="0.0589" y="-10" relative="1" as="geometry">
             <mxPoint x="370" y="580" as="sourcePoint" />
             <mxPoint x="539.98" y="580" as="targetPoint" />
@@ -215,9 +222,9 @@
           <mxGeometry x="660" y="80" width="100" height="670" as="geometry" />
         </mxCell>
         <mxCell id="VxCFYS7vYOswzJPETZMv-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="VxCFYS7vYOswzJPETZMv-29">
-          <mxGeometry x="45" y="410" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="410" width="10" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="VxCFYS7vYOswzJPETZMv-31" value="Inform about loading Status" style="endArrow=open;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;dashed=1;" edge="1" parent="VxCFYS7vYOswzJPETZMv-29">
+        <mxCell id="VxCFYS7vYOswzJPETZMv-31" value="Inform about loading Status" style="endArrow=open;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="VxCFYS7vYOswzJPETZMv-29">
           <mxGeometry x="-0.0909" y="-10" relative="1" as="geometry">
             <mxPoint x="-115" y="520" as="sourcePoint" />
             <mxPoint x="50" y="520" as="targetPoint" />
@@ -225,7 +232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VxCFYS7vYOswzJPETZMv-32" value="&lt;div&gt;At this point Variables are directly written!!&lt;/div&gt;&lt;div&gt;This should be solved by an event subscription mechanism which tells the objects that need to know about the loading status the current status of loaded objects.&lt;br&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="700" width="150" height="200" as="geometry" />
+          <mxGeometry x="760" y="630" width="150" height="200" as="geometry" />
         </mxCell>
         <mxCell id="VxCFYS7vYOswzJPETZMv-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0.774;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=65;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-32" target="lfC_8TBVi6S20VTG8EU3-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
