@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T11:06:26.376Z" agent="5.0 (Windows)" etag="wot2Jc1PJEnDOs-isuD4" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T11:12:27.675Z" agent="5.0 (Windows)" etag="pQeOlge9s78Q6dIFluas" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1900" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,7 +66,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="ClientSessionManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="80" width="140" height="300" as="geometry" />
+          <mxGeometry x="300" y="80" width="140" height="540" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="65" y="55" width="10" height="190" as="geometry" />
@@ -78,7 +78,7 @@
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="lfC_8TBVi6S20VTG8EU3-3" value="XrCreatorUtility" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="860" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="lfC_8TBVi6S20VTG8EU3-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="lfC_8TBVi6S20VTG8EU3-3" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
@@ -121,7 +121,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lfC_8TBVi6S20VTG8EU3-13" value="TestConfigHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="425" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="710" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="lfC_8TBVi6S20VTG8EU3-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="lfC_8TBVi6S20VTG8EU3-13" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
@@ -152,6 +152,31 @@
               <mxPoint x="90" y="330" />
             </Array>
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-16" value="ClientSession Manager holds current &quot;active&quot; EventContainer " style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-60" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-18" value="Creates Object Structure from json file " style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-50" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-20" value="Fetches .json which contains the build plan for the event(objects)" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-50" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.575;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxCFYS7vYOswzJPETZMv-20" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="90" as="targetPoint" />
+            <mxPoint x="190.58823529411757" y="50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
