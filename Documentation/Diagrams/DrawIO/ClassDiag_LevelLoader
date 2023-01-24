@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T13:38:39.266Z" agent="5.0 (Windows)" etag="ZHPxouIr57cX2J-K1KtY" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T13:39:26.214Z" agent="5.0 (Windows)" etag="4qLQbM36JFEGaGSrEtHk" version="20.7.4" type="github">
   <diagram id="Cpsw2d6FKX9Te_6ND-bY" name="Seite-1">
     <mxGraphModel dx="2537" dy="2020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -354,7 +354,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="g1hZCP8AaofT6D4_-hoP-92" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontColor=#333333;fontSize=14;" parent="g1hZCP8AaofT6D4_-hoP-91" vertex="1">
+        <mxCell id="g1hZCP8AaofT6D4_-hoP-92" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=0;fontColor=#333333;fontSize=14;" parent="g1hZCP8AaofT6D4_-hoP-91" vertex="1">
           <mxGeometry x="-0.268640659658139" relative="1" as="geometry" />
         </mxCell>
       </root>
