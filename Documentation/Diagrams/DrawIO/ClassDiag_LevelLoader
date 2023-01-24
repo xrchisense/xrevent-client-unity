@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T09:57:20.202Z" agent="5.0 (Windows)" etag="p2vRX7LxYqzqz45k0_Tf" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T10:04:58.721Z" agent="5.0 (Windows)" etag="6AMNfXzDoj7LDRDeHRZD" version="20.7.4" type="github">
   <diagram id="Cpsw2d6FKX9Te_6ND-bY" name="Seite-1">
-    <mxGraphModel dx="1955" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2899" dy="2217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
             <mxGeometry x="-765" y="42" width="465" height="120" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#282c33;&quot;&gt;The ClientSessionManager was &#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#282c33;&quot;&gt;was originally the CreatorSessionManager.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="L5R9i0s2FC3Q" id="g1hZCP8AaofT6D4_-hoP-65">
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#282c33;&quot;&gt;The ClientSessionManager was &lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#282c33;&quot;&gt;originally the CreatorSessionManager.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId="L5R9i0s2FC3Q" id="g1hZCP8AaofT6D4_-hoP-65">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=note;size=15;fontSize=13;align=left;spacing=3.8;strokeColor=#282c33;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="g1hZCP8AaofT6D4_-hoP-8" vertex="1">
             <mxGeometry x="156" y="-216" width="255" height="116" as="geometry" />
           </mxCell>
