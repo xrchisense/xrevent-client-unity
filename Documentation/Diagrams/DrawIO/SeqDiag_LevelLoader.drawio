@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T11:42:22.771Z" agent="5.0 (Windows)" etag="VOEMLGpy64ya8gpc6z8d" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T11:50:11.542Z" agent="5.0 (Windows)" etag="WGlMZaUDk4cNFn2b7fQR" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
             <mxPoint x="17" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VxCFYS7vYOswzJPETZMv-22" value="" style="endArrow=open;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=0.464;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="VxCFYS7vYOswzJPETZMv-22" value="" style="endArrow=open;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=-0.3;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="65" y="389.9999999999999" as="sourcePoint" />
             <mxPoint x="234" y="390.9" as="targetPoint" />
@@ -75,10 +75,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="ClientSessionManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="140" height="660" as="geometry" />
+          <mxGeometry x="300" y="80" width="140" height="750" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="65" y="340" width="10" height="250" as="geometry" />
+          <mxGeometry x="65" y="340" width="10" height="290" as="geometry" />
         </mxCell>
         <mxCell id="lfC_8TBVi6S20VTG8EU3-1" value="DynSceneLoader" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-200" y="80" width="100" height="300" as="geometry" />
@@ -231,6 +231,13 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="730" as="sourcePoint" />
             <mxPoint x="610" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxCFYS7vYOswzJPETZMv-36" value="returns Room as GameObject" style="endArrow=none;html=1;rounded=0;exitX=0.51;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startArrow=open;startFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.0589" y="-10" relative="1" as="geometry">
+            <mxPoint x="370" y="630" as="sourcePoint" />
+            <mxPoint x="539.98" y="630" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
