@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T13:44:48.637Z" agent="5.0 (Windows)" etag="FtTyVmf2AiZZavrqP7RP" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T13:50:19.530Z" agent="5.0 (Windows)" etag="mtGcw4gPEvVQniaePTvP" version="20.8.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1725" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -254,6 +254,19 @@
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-44" value="Don&#39;DestroyOnLoad()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="-60" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-45" value="Every Scene should have a GameObject with a SceneManager." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-70" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-47" value="LoadSceneAsync()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=oval;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0567" relative="1" as="geometry">
+            <mxPoint x="450" y="1130" as="sourcePoint" />
+            <mxPoint x="570" y="1130" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="510" y="1130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
