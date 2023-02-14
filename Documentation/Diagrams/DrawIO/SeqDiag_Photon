@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T15:07:18.647Z" agent="5.0 (Windows)" etag="qzH6rRsp3DRssmRkglbh" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T15:43:28.663Z" agent="5.0 (Windows)" etag="Fkr82ITHZLyins_GCgLf" version="20.8.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1925" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
           <mxGeometry x="380" y="40" width="140" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bcPD1A5RsBtASB3_TD8N-30">
-          <mxGeometry x="65" y="560" width="10" height="690" as="geometry" />
+          <mxGeometry x="65" y="560" width="10" height="850" as="geometry" />
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-32" value="ConnectUsingSettings()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;" edge="1" parent="1" target="bcPD1A5RsBtASB3_TD8N-31">
           <mxGeometry x="-0.0765" relative="1" as="geometry">
@@ -345,7 +345,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-59" value="This should be called OnSceneStart as the Provider (ApplicationManager) of the event defined it that way." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1340" width="170" height="100" as="geometry" />
+          <mxGeometry x="220" y="1310" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-60" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startSize=8;endSize=6;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-59">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -376,6 +376,31 @@
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-66" value="In Photon_Launcher Prefab. Should be called Application Launcher" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-350" y="-260" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-67" value="Instantiate()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;endFill=1;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1300" as="sourcePoint" />
+            <mxPoint x="450" y="1300" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="600" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-68" value="Is used for RemotePlayer Instantiation and not PhotonNetwork instantiation." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1350" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-69" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startSize=8;endSize=6;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1332" as="sourcePoint" />
+            <mxPoint x="540" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-70" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startSize=8;endSize=6;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="1360" as="sourcePoint" />
+            <mxPoint x="730" y="1280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
