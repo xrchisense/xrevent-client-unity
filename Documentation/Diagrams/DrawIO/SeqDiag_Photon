@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T14:36:46.268Z" agent="5.0 (Windows)" etag="FYKpW3ogjxYF9B79sFH0" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T14:41:40.663Z" agent="5.0 (Windows)" etag="wQAyG1iT3VN0QeQ9nDtb" version="20.8.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1725" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-44" value="Don&#39;DestroyOnLoad()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-60" width="110" height="60" as="geometry" />
+          <mxGeometry x="40" y="-140" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-45" value="Every Scene should have a GameObject with a SceneManager." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="700" y="-70" width="160" height="80" as="geometry" />
@@ -307,6 +307,15 @@
               <mxPoint x="160" y="1250" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-52" value="Manages Photon VRIF Combination. After a Scene is running." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-70" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-53" value="Manages Photon Connections." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-54" value="Application specific " style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-70" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
