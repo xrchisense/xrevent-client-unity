@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T15:43:28.663Z" agent="5.0 (Windows)" etag="Fkr82ITHZLyins_GCgLf" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T16:07:15.043Z" agent="5.0 (Windows)" etag="CmUsBeyvLTQF64Ioe6Mp" version="20.8.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1925" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1725" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
         <mxCell id="bcPD1A5RsBtASB3_TD8N-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bcPD1A5RsBtASB3_TD8N-17">
           <mxGeometry x="50" y="60" width="10" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="bcPD1A5RsBtASB3_TD8N-20" value="AppVersion" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-12" target="bcPD1A5RsBtASB3_TD8N-18">
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-20" value="AppVersion" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-12" target="bcPD1A5RsBtASB3_TD8N-18">
           <mxGeometry x="0.0323" relative="1" as="geometry">
             <mxPoint x="-410" y="280" as="sourcePoint" />
             <Array as="points">
@@ -375,7 +375,7 @@
           <mxGeometry x="65" y="1220" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-66" value="In Photon_Launcher Prefab. Should be called Application Launcher" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="-260" width="120" height="100" as="geometry" />
+          <mxGeometry x="-390" y="-260" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-67" value="Instantiate()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;endFill=1;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-6">
           <mxGeometry relative="1" as="geometry">
@@ -401,6 +401,21 @@
             <mxPoint x="515" y="1360" as="sourcePoint" />
             <mxPoint x="730" y="1280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-71" value=":BNGNetworkPlayer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1280" y="40" width="140" height="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bcPD1A5RsBtASB3_TD8N-71">
+          <mxGeometry x="65" y="1220" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-73" value="Use Case: Enter Room as Master trough Lobby" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-330" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-74" value="Use Case: Join Room trough Lobby not yet modeled" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-330" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-75" value="Use Case: Leave room to other room (or Lobby) not yet modeled" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-310" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
