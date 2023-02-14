@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T13:15:55.533Z" agent="5.0 (Windows)" etag="ZEibrvAivSi-C_BhCLpw" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T13:21:04.902Z" agent="5.0 (Windows)" etag="uBRjyllLuRnoFH3ShdQu" version="20.8.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1725" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -218,6 +218,16 @@
         </mxCell>
         <mxCell id="bcPD1A5RsBtASB3_TD8N-37" value="OnJoinedRoom()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="1040" as="sourcePoint" />
+            <mxPoint x="95" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="1040" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-38" value="OnJoinRoomFailed()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.0571" relative="1" as="geometry">
             <mxPoint x="445" y="1010" as="sourcePoint" />
             <mxPoint x="95" y="1010" as="targetPoint" />
             <Array as="points">
@@ -226,14 +236,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bcPD1A5RsBtASB3_TD8N-38" value="OnJoinRoomFailed()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startFill=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="1160" as="sourcePoint" />
-            <mxPoint x="95" y="1160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="355" y="1160" />
-            </Array>
-            <mxPoint as="offset" />
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-39" value="There is no user feedback when room join failed." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="910" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bcPD1A5RsBtASB3_TD8N-41" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;dashed=1;exitX=0;exitY=0;exitDx=120;exitDy=57.5;exitPerimeter=0;" edge="1" parent="1" source="bcPD1A5RsBtASB3_TD8N-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-120" y="1250" as="sourcePoint" />
+            <mxPoint x="100" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
